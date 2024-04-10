@@ -2,8 +2,9 @@ import db from '../db/connection';
 import { DataTypes } from 'sequelize';
 
 const Painting = db.define('paintings', {
-    painting_id: {
+    id: {
         type: DataTypes.NUMBER,
+        primaryKey: true
     },
     description: {
         type: DataTypes.STRING,

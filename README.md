@@ -1,4 +1,4 @@
-# Project Backend with Angular - README
+# The Watercolor Project
 
 ---
 

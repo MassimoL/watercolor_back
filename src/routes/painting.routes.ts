@@ -12,3 +12,4 @@ router.post('/', paintingsValidator, postPainting);
 router.put('/:id', paintingsValidator, updatePainting);
 
 export default router;
+

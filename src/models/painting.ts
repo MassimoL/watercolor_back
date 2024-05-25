@@ -19,9 +19,11 @@ const Painting = db.define('paintings', {
         type: DataTypes.STRING,
     },
 
+
 }, {
     createdAt: false,
     updatedAt: false,
 });
 
 export default Painting;
+

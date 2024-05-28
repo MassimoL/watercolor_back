@@ -26,3 +26,4 @@ const Painting = db.define('paintings', {
 });
 
 export default Painting;
+

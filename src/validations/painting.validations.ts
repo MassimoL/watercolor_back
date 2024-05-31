@@ -23,5 +23,4 @@ export const paintingsValidator = [
         .withMessage("Year is required")
         .isString()
         .withMessage("Year should be a string"),
-
 ];
